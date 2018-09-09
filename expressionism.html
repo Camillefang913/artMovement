@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Evolution of Art</title>
+        
+<!--        custom css             -->
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+        
+        
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,200,300,600,700,900' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+        
+        
+        <script src="https://d3js.org/d3.v4.js"></script>
+
+    </head>
+    
+    <body style="background-color: #B38E6F">
+       
+        <div class="wrapper">
+        
+<!--==============================================================-->
+<!-- navbar -->
+<!--==============================================================-->
+           <div class="nav">
+               <div id="overview">
+                   <h3>&emsp;&emsp;
+                   <a href="futurism.html" class="go_back">&lt;</a>
+                     <a href="index.html" class="go_back">&emsp;&emsp;&emsp;OVERVIEW</a></h3>
+               </div>
+               <div id="main_nav">
+                   <a href="futurism.html">
+                       <img src="img/up1.png" class="futurism" style="opacity: 0.4">
+                   </a>
+                   <a href="dadaism.html">
+                       <img src="img/up2.png" class="dadaism" style="opacity: 0.4">
+                    </a>
+                   <a href="index.html">
+                       <img src="img/mid1.png" class="impressionism" style="opacity: 0.4;">
+                   </a>
+                   <a href="postImpressionism.html">
+                       <img src="img/mid2.png" class="post" style="opacity: 0.4">
+                   </a>
+                   <a href="cubism.html">
+                       <img src="img/mid3.png" class="cubism" style="opacity: 0.4">
+                   </a>
+                   <a href="constructivism.html">
+                       <img src="img/mid4.png" class="construct" style="opacity: 0.4">
+                   </a>
+                   <a href="fauvism.html">
+                        <img src="img/third1.png" class="fauvism" style="opacity: 0.4">
+                   </a>
+                   <a href="expressionism.html">
+                       <img src="img/third2.png" class="expressionism">
+                   </a>
+                   <a href="surrealism.html">
+                       <img src="img/four1.png" class="surrealism" style="opacity: 0.4">
+                    </a>
+               </div>
+               <div id="gallery_mode">
+                   <h3>GALLERY MODE&emsp;&emsp;&emsp;
+                   <a href="dadaism.html" class="go_on">&gt;</a>
+              &emsp;&emsp;</h3>
+               </div>
+           </div>
+           
+<!--==============================================================-->
+<!-- gallery -->
+<!--==============================================================-->
+           <div class="gallery" id="gallery">
+               <div class="row1"></div>
+               <div class="row2"></div>
+               <div class="row3"></div>
+           </div>
+           
+<!--==============================================================-->
+<!-- Introduction -->
+<!--==============================================================-->
+            <div class="timeline">
+<!--                &emsp;&emsp;&emsp;&ensp;-->
+                <img src="img/timeline.png" style="width: 90%; margin-left: 5%">
+            </div>
+            <div class="girl-wrap">
+                <div class="girl"></div>
+            </div>
+            <div class="time">
+                <div class="from">1910</div>
+                <div class="end">1925</div>
+                <div class="flag"><img src="img/flagGermany.png"></div>
+            </div>
+            <div class="movement">
+                <h1>EXPRESSIONISM</h1>
+                <p class="movement_key">
+                    Dissonance in Color and Perspective, Messages of Anxiety, Vivid and Exaggerated Colors
+                </p>
+                <p class="movement_desc">Expressionist art tried to convey emotion and meaning rather than reality. Each artist had their own unique way of "expressing" their emotions in their art. In order to express emotion, the subjects are often distorted or exaggerated. At the same time colors are often vivid and shocking. </p>
+            </div>
+            
+            <div id="layer"></div>
+<!--==============================================================-->
+<!-- detail page -->
+<!--==============================================================-->
+            <div id="detail">
+                
+                <div id="detail_img">
+<!--                    use as a test-->
+<!--                    <img src="img/postImpressionism/304.jpg">-->
+                </div>
+                
+                <div id="caption">
+                   <div id="close">
+                    &times;
+                   </div>
+                    <div id="name">
+<!--                        <span>Bedroom in Arles</span>-->
+                    </div>
+                    <div id="artist"></div>
+                    <div id="description"></div>
+                    <div id="size"></div>
+                </div>
+            </div>
+            
+        </div>
+
+    
+    </body>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/d3.js"></script>
+    <script src="js/expressionism.js"></script>
+       
+</html>

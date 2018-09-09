@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Evolution of Art</title>
+        
+<!--        custom css             -->
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+        
+        
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,200,300,600,700,900' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+        
+        
+<!--
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+         <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+          <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+-->
+
+<!--        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-tools/1.2.7/jquery.tools.min.js"></script>-->
+<!--        <script src="http://cdn.jquerytools.org/1.2.6/full/jquery.tools.min.js"></script>-->
+        
+        <script src="https://d3js.org/d3.v4.js"></script>
+
+    </head>
+    
+    <body style="background-color: #091F5A">
+       
+        <div class="wrapper">
+        
+<!--==============================================================-->
+<!-- navbar -->
+<!--==============================================================-->
+           <div class="nav">
+               <div id="overview">
+                   <h3>&emsp;&emsp;
+                   <a href="postImpressionism.html" class="go_back">&lt;</a>
+                   <a href="index.html" class="go_back">&emsp;&emsp;&emsp;OVERVIEW</a></h3>
+               </div>
+               <div id="main_nav">
+                   <a href="futurism.html">
+                       <img src="img/up1.png" class="futurism" style="opacity: 0.4">
+                   </a>
+                   <a href="dadaism.html">
+                       <img src="img/up2.png" class="dadaism" style="opacity: 0.4">
+                    </a>
+                   <a href="index.html">
+                       <img src="img/mid1.png" class="impressionism" style="opacity: 0.4;">
+                   </a>
+                   <a href="postImpressionism.html">
+                       <img src="img/mid2.png" class="post" style="opacity: 0.4">
+                   </a>
+                   <a href="cubism.html">
+                       <img src="img/mid3.png" class="cubism" style="opacity: 0.4">
+                   </a>
+                   <a href="constructivism.html">
+                       <img src="img/mid4.png" class="construct" style="opacity: 0.4">
+                   </a>
+                   <a href="fauvism.html">
+                        <img src="img/third1.png" class="fauvism">
+                   </a>
+                   <a href="expressionism.html">
+                       <img src="img/third2.png" class="expressionism" style="opacity: 0.4">
+                   </a>
+                   <a href="surrealism.html">
+                       <img src="img/four1.png" class="surrealism" style="opacity: 0.4">
+                    </a>
+               </div>
+               <div id="gallery_mode">
+                   <h3>GALLERY MODE&emsp;&emsp;&emsp;
+                   <a href="cubism.html" class="go_on">&gt;</a>
+              &emsp;&emsp;</h3>
+               </div>
+           </div>
+           
+<!--==============================================================-->
+<!-- gallery -->
+<!--==============================================================-->
+           <div class="gallery" id="gallery">
+               <div class="row1"></div>
+               <div class="row2"></div>
+               <div class="row3"></div>
+           </div>
+           
+<!--==============================================================-->
+<!-- Introduction -->
+<!--==============================================================-->
+            <div class="timeline">
+<!--                &emsp;&emsp;&emsp;&ensp;-->
+                <img src="img/timeline.png" style="width: 90%; margin-left: 5%">
+            </div>
+            <div class="girl-wrap">
+                <div class="girl"></div>
+            </div>
+            <div class="time">
+                <div class="from">1905</div>
+                <div class="end">1908</div>
+                <div class="flag"><img src="img/flagFrench.png"></div>
+            </div>
+            <div class="movement">
+                <h1>FAUVISM</h1>
+                <p class="movement_key">
+                    Emotional Imagery, Vibrant Colors, Flattened Perspectives, Expressive Brushwork
+                </p>
+                <p class="movement_desc">In modern art, the term Fauvism refers to a highly fashionable, if short-lived, art movement associated with the Ecole de Paris, which formed around friendships between French artists around the turn of the century. </p>
+            </div>
+            
+            <div id="layer"></div>
+<!--==============================================================-->
+<!-- detail page -->
+<!--==============================================================-->
+            <div id="detail">
+                
+                <div id="detail_img">
+<!--                    use as a test-->
+<!--                    <img src="img/postImpressionism/304.jpg">-->
+                </div>
+                
+                <div id="caption">
+                   <div id="close">
+                    &times;
+                   </div>
+                    <div id="name">
+<!--                        <span>Bedroom in Arles</span>-->
+                    </div>
+                    <div id="artist">
+<!--                        <span>Vincent van Gogh, 1988</span>-->
+                    </div>
+                    <div id="description"> 
+<!--                    <span>The painting depicts van Gogh's bedroom at 2, Place Lamartine in Arles, Bouches-du-Rhône, France, known as the Yellow House. The door to the right opened on to the upper floor and the staircase; the door to the left was that of the guest room he held prepared for Gauguin; the window in the front wall looked on to Place Lamartine and its public gardens. This room was not rectangular but trapezoid with an obtuse angle in the left hand corner of the front wall and an acute angle at the right. </span>-->
+                    </div>
+                    <div id="size">
+<!--                        <span>Dimension: 90 x 78 cm</span>-->
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+    
+    </body>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/d3.js"></script>
+    <script src="js/fauvism.js"></script>
+       
+</html>
