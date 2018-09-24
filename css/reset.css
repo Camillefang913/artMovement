@@ -160,27 +160,49 @@ video {
 
 .girl-wrap {
     position: relative;
-    grid-column: 2 / 4;
+    grid-column: 1 / 13;
     grid-row: 10 / 12;
 }
 
 .girl {
-    background: no-repeat !important;
+    position: absolute;
+    top: 0 !important;
+    left: 10vw;
+    width: 110px !important;
+    height: 105% !important;
+    animation-name: charector-1;
+    animation-iteration-count: 0;
+    animation-timing-function: step-start;
+    animation-duration: 1000ms;
     background-image: url("../img/girl.png") !important;
     background-position: 0 -2px !important;
+    background-repeat: no-repeat !important;
     /*1510px是背景图的宽度*/
     background-size: 1510px 110% !important;
     background-repeat: no-repeat !important;
-    width: 64px !important;
-    height: 105% !important;
-    top: 0 !important;
-    left: 0 !important;
 }
 
+/*index*/
 .movement>h1 {
     font-size: 5rem;
 }
 
+/* impressionism */
+.modal {
+    grid-row: 1/12 !important;
+}
+
+.modal>.back {
+    clip: rect(auto, auto, 18rem, auto);
+}
+
+.front,
+.back,
+.opened {
+    height: 18rem !important;
+}
+
+/*scroll*/
 ::-webkit-scrollbar {
     width: 1px;
     height: 10px;
