@@ -198,7 +198,7 @@ p {
 
 .nameup5 {
     margin-top: 30px;
-    grid-column: 10 / 12;
+    grid-column: 10 / 13;
     grid-row: 10 / 13;
 }
 
@@ -224,8 +224,8 @@ p {
 
 .namedown4 {
     margin-top: 30px;
-    margin-left: -80px;
-    grid-column: 11 / 12;
+    margin-left: 0px;
+    grid-column: 10 / 12;
     grid-row: 12 / 13;
 }
 
